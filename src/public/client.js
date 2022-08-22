@@ -79,8 +79,5 @@ async function renderProducts(products){
     }
        
 }
-    const el = document.getElementById("welcomeuser");
-    el.textContent = "Bienvenido!!";
-    
 
 socket.on('server:products', renderProducts);
